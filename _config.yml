@@ -25,12 +25,12 @@ exclude:
 title: "Cloud Alpes 2023"
 email: "cloudalpes@gmail.com"
 description: "Cloud Alpes, c'est l'événement qui se tient à Lyon et dédié à la Tech avec pour thématique le Cloud, l’Architecture et tout ce qui se rapporte aux pratiques de développement : Finops, Greenops, Serverless, Cloud Native, technique de déploiement, sécurisation…"
-baseurl: "/zeppelin"
+baseurl: "/"
 url: "https://cloudalpes.fr"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+#googleAnalyticsTrackingId: "UA-43643469-5"
+#googleAnalyticsSiteUrl: "gdg-x.github.io"
+#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
 organizerName: "Cloud Alpes"
@@ -48,7 +48,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://conference-hall.io/public/event/90HSNNtojHqk1S8SbavA"
+c4pUrl: "https://s.42l.fr/cloudalpes2023cfp"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
@@ -56,16 +56,16 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Accueil"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "https://conference-hall.io/public/event/90HSNNtojHqk1S8SbavA", text: "CFP"}
+ - {permalink: "https://s.42l.fr/cloudalpes2023cfp", text: "CFP"}
  # - {permalink: "/schedule/", text: "Programme"}
  #- {permalink: "/speakers/", text: "Orateurs"}
  - {permalink: "/team/", text: "Équipe"}
  - {permalink: "/logistics/", text: "Accès"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://conference-hall.io/public/event/90HSNNtojHqk1S8SbavA", text: "Devenir orateur"}
+ - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Devenir orateur"}
 rightNavigationButtons:
- - {link: "https://conference-hall.io/public/event/90HSNNtojHqk1S8SbavA", text: "Proposer un talk"}
+ - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Proposer un talk"}
 
 # Hero Block
 heroImage: "hero.jpg"
