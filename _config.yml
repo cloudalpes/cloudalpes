@@ -48,7 +48,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://s.42l.fr/cloudalpes2023cfp"
+c4pUrl: "https://conference-hall.io/public/event/90HSNNtojHqk1S8SbavA"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
@@ -56,21 +56,21 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Accueil"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "https://s.42l.fr/cloudalpes2023cfp", text: "CFP"}
+ - {permalink: "https://conference-hall.io/public/event/90HSNNtojHqk1S8SbavA", text: "CFP"}
  # - {permalink: "/schedule/", text: "Programme"}
  #- {permalink: "/speakers/", text: "Orateurs"}
  - {permalink: "/team/", text: "Équipe"}
  - {permalink: "/logistics/", text: "Accès"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Devenir orateur"}
+ - {link: "https://conference-hall.io/public/event/90HSNNtojHqk1S8SbavA", text: "Devenir orateur"}
 rightNavigationButtons:
- - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Proposer un talk"}
+ - {link: "https://conference-hall.io/public/event/90HSNNtojHqk1S8SbavA", text: "Proposer un talk"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "CloudAlpes 2023: <typeout>"
-eventDate: "6 Septembre, 2023"
+heroTitle: "Cloud Alpes 2023 : <typeout>"
+eventDate: "6 Septembre 2023"
 typeoutTextValues: '"", "DevOps ", "Architecture", "Méthodologie", "Hors-piste"'
 typeoutFallback: "1ère édition"
 heroButtons:
@@ -87,7 +87,7 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "1", specialCharacter: "", info: "ème édition", detail: "Notre ADN: Partage & Convivialité"}
+ - {count: "1", specialCharacter: "", info: "ère édition", detail: "Notre ADN: Partage & Convivialité"}
  - {count: "210", specialCharacter: "+", info: "participants attendus", detail: "de toute la France"}
  - {count: "8", specialCharacter: "+", info: "heures", detail: "de Tech et pas que !"}
  - {count: "32", specialCharacter: "+", info: "orateurs", detail: "de France et d'ailleurs"}
@@ -213,7 +213,7 @@ blogCommentsEnabled: false
 discusShortName: "cloudalpes"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
 teamBlockTitle: "A propos"
@@ -239,31 +239,31 @@ directionDetailsCards:
  - {title: "En transports publics", information: "<a href='https://citymapper.com/lyon'>Citymapper</a> est disponible à Lyon. Vous pouvez donc trouver votre chemin dans <a href='https://citymapper.com/lyon'>Citymapper</a> ou sur le site des <a href='https://www.tcl.fr/itineraires'>TCL</a>. De plus, vous pouvez télécharger n'importe quelle application de transport public hors ligne disponible pour Lyon."}
  - {title: "Hôtels", information: "Lyon dispose de nombreux hôtels et auberges de jeunesse de qualité. De plus amples informations seront disponibles ultérieurement."}
 directionDetailsWideCards:
- -
-  title: "Des questions?"
-  subCards:
-   -
-    title: "Hôtels"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Enregistrement"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Détails pour les participants"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-
+ # -
+ #  title: "Des questions?"
+ #  subCards:
+ #   -
+ #    title: "Hôtels"
+ #    links:
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ #   -
+ #    title: "Enregistrement"
+ #    links:
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ #   -
+ #    title: "Détails pour les participants"
+ #    links:
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ #
 # Hackathon
 hackathonTitle: "Hackathon"
 enableHackathon: false
