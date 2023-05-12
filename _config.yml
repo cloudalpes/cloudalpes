@@ -75,7 +75,7 @@ typeoutTextValues: '"", "DevOps ", "Architecture", "Méthodologie", "Hors-piste"
 typeoutFallback: "1ère édition"
 heroButtons:
  - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Proposer un sujet"}
- - {permalink: "/#tickets", text: "Acheter des tickets"}
+# - {permalink: "/#tickets", text: "Acheter des tickets"}
 
 # About Block
 aboutTitle: "Cloud Alpes"
@@ -88,9 +88,9 @@ aboutBlock:
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "1", specialCharacter: "", info: "ère édition", detail: "Notre ADN: Partage & Convivialité"}
- - {count: "210", specialCharacter: "+", info: "participants attendus", detail: "de toute la France"}
+ - {count: "200", specialCharacter: "+", info: "participants attendus", detail: "de toute la France"}
  - {count: "8", specialCharacter: "+", info: "heures", detail: "de Tech et pas que !"}
- - {count: "32", specialCharacter: "+", info: "orateurs", detail: "de France et d'ailleurs"}
+ - {count: "10", specialCharacter: "+", info: "orateurs", detail: "de France et d'ailleurs"}
 # - {count: "1", specialCharacter: "", info: "piste", detail: "pour plus de découvertes"}
 
 # Latest News Block
@@ -150,23 +150,23 @@ ticketsInfo: "Les billets donnent accès à toutes les sections de la conférenc
 ticketsOffers:
  -
   name: "Early Bird"
-  price: "35"
+  price: "20"
   priceCurrency: "EUR"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  ticketsNumber: "80"
+  ribbon: "-50%"
+  buyButtonLink: "https://www.billetweb.fr/cloud-alpes"
   buyButtonText: "Acheter"
   ticketContentList: ["Mystère complet sur le programme", "Déjeuner inclus"]
   validFrom: "2023-05-01T10:00"
   validThrough: "2023-07-01T23:59"
  -
   name: "Standard"
-  price: "99"
+  price: "40"
   priceCurrency: "EUR"
-  ticketsNumber: "100"
-  ribbon: "-20%"
+  ticketsNumber: "220"
+  ribbon: ""
   featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonLink: "https://www.billetweb.fr/cloud-alpes"
   buyButtonText: "Acheter"
   ticketContentList: ["Programme connu", "Déjeuner inclus"]
   validFrom: "2023-07-01T00:00"
@@ -177,7 +177,7 @@ ticketsOffers:
   price: "20"
   priceCurrency: "EUR"
   ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonLink: "https://www.billetweb.fr/cloud-alpes"
   buyButtonText: "Acheter"
   additionalInfo: "Une carte d'étudiant en cours de validité doit être présentée à l'enregistrement de la conférence. Sans carte d'étudiant à l'enregistrement, le billet sera annulé sans remboursement."
   ticketContentList: ["Tarif spécial avec déjeuner", "Nécessite une carte étudiante valide"]
