@@ -1,6 +1,6 @@
 # Cloud Alpes 2023 (Website)
 
-### Live demo http://cloudalpes.github.io
+### Live demo https://www.cloudalpes.fr
 
 ### About the template
  
