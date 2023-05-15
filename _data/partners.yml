@@ -1,4 +1,5 @@
 - 
-  group: "de la 1ère édition"
+  group: "de cette 1ère édition"
   elements: 
+    - {name: "Les Compagnons du DevOps", description: "Rejoins les Compagnons du DevOps !", link: "https://www.compagnons-devops.fr/", imageUrl: "CDD_noir_GRIDS.svg"}
     - {name: "INSA de Lyon", description: "INSA de Lyon", link: "https://www.insa-lyon.fr/fr/", imageUrl: "INSA_Lyon.svg"}
