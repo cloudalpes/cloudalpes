@@ -1,0 +1,12 @@
+- 
+  group: "Or" #General sponsor"
+  elements: 
+  #  - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+- 
+  group: "Argent" #With support of"
+  elements: 
+    - {name: "HoppR", description: "There is a New Hopp(R)", link: "https://www.hoppr.tech/", imageUrl: "HoppR.png", width: "120px"}
+- 
+  group: "Bronze" #Information partners"
+  elements: 
+  #  - {name: "INSA de Lyon", description: "INSA de Lyon", link: "https://www.insa-lyon.fr/fr/", imageUrl: "INSA_Lyon.svg"}

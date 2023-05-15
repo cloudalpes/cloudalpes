@@ -49,7 +49,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "https://s.42l.fr/cloudalpes2023cfp"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4sponsorsUrl: "/assets/Kit_Sponsoring_Cloud_Alpes_2023.pdf"
 
 
 # Navigation
@@ -136,7 +136,11 @@ twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_int
 # Partners Block
 organizersTitle: "Organisateurs"
 partnersTitle: "Partenaires"
-partnersC4sponsorsButton: "Devenir un sponsor"
+partnersC4sponsorsButton: "Devenir un partenaire"
+
+# Sponsors Block
+sponsorsTitle: "Sponsors"
+sponsorsC4sponsorsButton: "Devenir un sponsor"
 
 # Subscribe Block
 subscribeImage: "lyon.jpg"
