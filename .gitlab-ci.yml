@@ -1,0 +1,49 @@
+image: ruby:latest
+
+variables:
+  LC_ALL: C.UTF-8
+  JEKYLL_ENV: production
+  BASE_URL: ${CI_PAGES_URL}
+  INDEX_URL: ${BASE_URL}/index.html
+# https://baldir.fr/posts/publier-un-site-jekyll-par-merge-request-dans-gitlab/
+
+before_script:
+  - gem install bundler
+  - bundle install
+  # fix: undefined method `exists?' for File:Class
+  - find /usr/local/bundle/gems/compass-1.0.3/ -type f -print0 | xargs -0 sed -i 's|exists?|exist?|g' 
+
+test:
+  stage: test
+  script:
+  - echo "🧪 Test on ${CI_ENVIRONMENT_NAME} on ${INDEX_URL}"
+  - bundle exec jekyll build --baseurl ${BASE_URL} -d test
+  artifacts:
+    paths:
+    - test
+  rules:
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+
+pages:
+  stage: deploy
+  script:
+  - echo "🚀 Deploy on ${CI_ENVIRONMENT_NAME} on ${INDEX_URL}"
+  # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/26777
+  - sed -i 's|baseurl:\ \"\/\"|baseurl:\ \"\/cloudalpes\/\"|g' _config.yml
+  - cat _config.yml | grep baseurl
+  - bundle exec jekyll build --baseurl ${BASE_URL} -d public
+  artifacts:
+    paths:
+    - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  environment:
+    name: "${JEKYLL_ENV}"
+    url: "${INDEX_URL}"
+
+# fix: Could not find a JavaScript runtime. See https://github.com/rails/execjs
+# for a list of available runtimes. https://stackoverflow.com/a/60385754
+# - gem install mini_racer
+
+# https://mademistakes.com/mastering-jekyll/site-url-baseurl/
+# https://talk.jekyllrb.com/t/relative-url-and-baseurl/2051/12
