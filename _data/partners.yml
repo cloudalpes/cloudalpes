@@ -1,5 +1,8 @@
 - 
   group: "de cette 1ère édition"
   elements: 
-    - {name: "Les Compagnons du DevOps", description: "Rejoins les Compagnons du DevOps !", link: "https://www.compagnons-devops.fr/", imageUrl: "CDD_noir_GRIDS.svg"}
+    - {name: "Les Compagnons du DevOps", description: "Rejoins les Compagnons du DevOps !", link: "https://www.compagnons-devops.fr/", imageUrl: "CDD_violet.svg"}
+    - {name: "Lyon - Café DevOps", description: "Meetup", link: "https://www.meetup.com/fr-FR/cafe-devops-lyon/", imageUrl: "lyon_cafe_devops.png"}
+    - {name: "Lille - DevOps", description: "Meetup", link: "https://www.meetup.com/fr-FR/devops-lille/", imageUrl: "lille_devops.jpg"}
+    - {name: "Lille - GDG", description: "Meetup", link: "https://www.meetup.com/fr-FR/gdg-lille/", imageUrl: "lille_gdg.png"}
     - {name: "INSA de Lyon", description: "INSA de Lyon", link: "https://www.insa-lyon.fr/fr/", imageUrl: "INSA_Lyon.svg"}

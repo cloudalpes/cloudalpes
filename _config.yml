@@ -79,6 +79,8 @@ heroButtons:
 
 # About Block
 aboutTitle: "Cloud Alpes"
+aboutObjectif: "Notre objectif: promouvoir le partage de connaissance au sein de la communauté tech de Lyon."
+aboutActions: "Nos actions pour l'atteindre: organisation d'une confèrence annuelle et financement d'event meetup tech."
 aboutBlock:
  - {title: "Conférence", image: "conference.jpg", text: "Un évènement dédié aux communautés Cloud/DevOps, avec des orateurs de renommée" }
  - {title: "Ateliers", image: "workshop.jpg", text: "Une journée entière d'ateliers sur divers sujets. Venez apprivoiser votre technologie préférée !" }
