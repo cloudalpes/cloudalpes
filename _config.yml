@@ -55,13 +55,15 @@ c4sponsorsUrl: "/assets/Kit_Sponsoring_Cloud_Alpes_2023.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Accueil"}
- - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/#sponsors", text: "Partenaires"}
  - {permalink: "https://s.42l.fr/cloudalpes2023cfp", text: "CFP"}
+ - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/team/", text: "Équipe"}
  # - {permalink: "/schedule/", text: "Programme"}
  #- {permalink: "/speakers/", text: "Orateurs"}
- - {permalink: "/team/", text: "Équipe"}
  - {permalink: "/logistics/", text: "Accès"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
+
 bottomNavigationLinks:
  - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Devenir orateur"}
 rightNavigationButtons:
@@ -133,7 +135,7 @@ venueFeatures: ["350 places", "Accessible, PMR et en transport en commun", "Faci
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "Partagez sur les réseaux avec "
 twitterHashTag: "cloudalpes"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterFeed: "" #"http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 organizersTitle: "Organisateurs"
