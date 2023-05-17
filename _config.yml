@@ -56,7 +56,8 @@ c4sponsorsUrl: "/assets/Kit_Sponsoring_Cloud_Alpes_2023.pdf"
 navigationLinks:
  - {permalink: "/", text: "Accueil"}
  - {permalink: "/#sponsors", text: "Partenaires"}
- - {permalink: "https://s.42l.fr/cloudalpes2023cfp", text: "CFP"}
+ - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "CFP"}
+ - {link: "https://s.42l.fr/cloudalpes2023ticket", text: "Billeterie"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/team/", text: "Équipe"}
  # - {permalink: "/schedule/", text: "Programme"}
@@ -67,6 +68,7 @@ navigationLinks:
 bottomNavigationLinks:
  - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Devenir orateur"}
 rightNavigationButtons:
+ - {link: "https://s.42l.fr/cloudalpes2023ticket", text: "Acheter un billet"}
  - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Proposer un talk"}
 
 # Hero Block
@@ -77,7 +79,7 @@ typeoutTextValues: '"", "DevOps ", "Architecture", "Méthodologie", "Hors-piste"
 typeoutFallback: "1ère édition"
 heroButtons:
  - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Proposer un sujet"}
-# - {permalink: "/#tickets", text: "Acheter des tickets"}
+ - {link: "/#tickets", text: "Acheter un billet"}
 
 # About Block
 aboutTitle: "Cloud Alpes"
@@ -162,7 +164,7 @@ ticketsOffers:
   priceCurrency: "EUR"
   ticketsNumber: "80"
   ribbon: "-50%"
-  buyButtonLink: "https://www.billetweb.fr/cloud-alpes"
+  buyButtonLink: "https://s.42l.fr/cloudalpes2023ticket"
   buyButtonText: "Acheter"
   ticketContentList: ["Mystère complet sur le programme", "Déjeuner inclus"]
   validFrom: "2023-05-01T10:00"
@@ -174,7 +176,7 @@ ticketsOffers:
   ticketsNumber: "220"
   ribbon: ""
   featured: true
-  buyButtonLink: "https://www.billetweb.fr/cloud-alpes"
+  buyButtonLink: "https://s.42l.fr/cloudalpes2023ticket"
   buyButtonText: "Acheter"
   ticketContentList: ["Programme connu", "Déjeuner inclus"]
   validFrom: "2023-07-01T00:00"
@@ -185,7 +187,7 @@ ticketsOffers:
   price: "20"
   priceCurrency: "EUR"
   ticketsNumber: "50"
-  buyButtonLink: "https://www.billetweb.fr/cloud-alpes"
+  buyButtonLink: "https://s.42l.fr/cloudalpes2023ticket"
   buyButtonText: "Acheter"
   additionalInfo: "Une carte d'étudiant en cours de validité doit être présentée à l'enregistrement de la conférence. Sans carte d'étudiant à l'enregistrement, le billet sera annulé sans remboursement."
   ticketContentList: ["Tarif spécial avec déjeuner", "Nécessite une carte étudiante valide"]
