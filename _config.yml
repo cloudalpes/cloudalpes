@@ -1,7 +1,7 @@
 # Plugins
-gems:
+plugins: #Deprecation of gems:
 - jekyll-sitemap
-safe: false
+safe: false #https://stackoverflow.com/a/19086256
 
 # Build Settings
 markdown: kramdown
@@ -42,10 +42,11 @@ organizerLink: "https://cloudalpes.fr"
 
 # Head
 metaKeywords: "insa, conf, event, cloud, cloudalpes, devops, programming, code, programmation, developers, développeurs, lyon"
+author: "David Aparicio, Association Cloud Alpes"
 twitterAccount: "@CloudAlpes"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.jpg"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.jpg"
 
 # Documents
 c4pUrl: "https://s.42l.fr/cloudalpes2023cfp"
@@ -198,9 +199,10 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://twitter.com/intent/user?screen_name=CloudAlpes", icon: "twitter"}
- - {link: "https://facebook.com/CloudAlpes", icon: "facebook"}
+ - {link: "https://twitter.com/Cloud_Alpes", icon: "twitter"}
+ - {link: "https://www.linkedin.com/company/cloud-alpes/", icon: "linkedin"}
 # - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+# - {link: "https://twitter.com/intent/user?screen_name=Cloud_Alpes", icon: "twitter"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
