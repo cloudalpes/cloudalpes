@@ -79,7 +79,7 @@ eventDate: "6 Septembre 2023"
 typeoutTextValues: '"", "DevOps ", "Architecture", "Méthodologie", "Hors-piste"'
 typeoutFallback: "1ère édition"
 heroButtons:
- - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Proposer un sujet"}
+ - {link: "https://s.42l.fr/cloudalpes2023sponsor", text: "Devenir sponsor"}
  - {link: "/#tickets", text: "Acheter un billet"}
 
 # About Block

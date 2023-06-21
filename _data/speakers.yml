@@ -67,37 +67,13 @@
 #     - {name: "site", link: "http://olostan.name/"}
 - 
   id: 1
-  name: "Bowser"
-  surname: ""
-  company: "Nintendo"
-  title: "Android Developer"
-  bio: "Bowser is a software engineer at Nintendo. He lives in Kyiv, Ukraine."
-  thumbnailUrl: Bowser.png
+  name: "Adam"
+  surname: "Quentin"
+  company: "Clever Cloud"
+  title: "CEO"
+  bio: "CEO de Clever Cloud, un des co-fondateurs de _icilundi et MakAir et Président d'OpenInternetProject"
+  thumbnailUrl: "QuentinAdam.jpg"
   rockstar: true
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+BowserMr/"}
-    - {name: "twitter", link: "https://twitter.com/Bowser"}
--
-  id: 2
-  name: "Donkey"
-  surname: "Kong"
-  company: "Nintendo"
-  title: "Android Developer"
-  bio: "Donkey is a software engineer at Nintendo. He lives in Kyiv, Ukraine."
-  thumbnailUrl: Donkey.png
-  rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DonkeyKong/"}
-    - {name: "twitter", link: "https://twitter.com/DonkeyKong"}
--
-  id: 3
-  name: "Peach"
-  surname: ""
-  company: "Nintendo"
-  title: "Android Developer"
-  bio: "Peach is a software engineer at Nintendo. He lives in Kyiv, Ukraine."
-  thumbnailUrl: Peach.png
-  rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+Peach/"}
-    - {name: "twitter", link: "https://twitter.com/Peach"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/waxzce/"}
+    - {name: "twitter", link: "https://twitter.com/waxzce"}
