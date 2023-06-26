@@ -26,7 +26,8 @@ title: "Cloud Alpes 2023"
 email: "cloudalpes@gmail.com"
 description: "Cloud Alpes, c'est l'événement qui se tient à Lyon et dédié à la Tech avec pour thématique le Cloud, l’Architecture et tout ce qui se rapporte aux pratiques de développement : Finops, Greenops, Serverless, Cloud Native, technique de déploiement, sécurisation…"
 baseurl: "/"
-url: "https://cloudalpes.fr"
+url: "https://info.cloudalpes.fr"
+canvaurl: "https://cloudalpes.fr"
 permalink: "/blog/:title"
 #googleAnalyticsTrackingId: "UA-43643469-5"
 #googleAnalyticsSiteUrl: "gdg-x.github.io"
@@ -55,12 +56,13 @@ c4sponsorsUrl: "/assets/Kit_Sponsoring_Cloud_Alpes_2023.pdf"
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Accueil"}
- - {permalink: "/#sponsors", text: "Partenaires"}
- - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "CFP"}
- - {link: "https://s.42l.fr/cloudalpes2023ticket", text: "Billeterie"}
+#  - {permalink: "/", text: "Accueil"}
+ - {link: "https://www.cloudalpes.fr/", text: "Accueil"}
+#  - {permalink: "/#sponsors", text: "Partenaires"}
+#  - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "CFP"}
+#  - {link: "https://s.42l.fr/cloudalpes2023ticket", text: "Billeterie"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/team/", text: "Équipe"}
+#  - {permalink: "/team/", text: "Équipe"}
  # - {permalink: "/schedule/", text: "Programme"}
  #- {permalink: "/speakers/", text: "Orateurs"}
  - {permalink: "/logistics/", text: "Accès"}
@@ -70,7 +72,7 @@ bottomNavigationLinks:
  - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Devenir orateur"}
 rightNavigationButtons:
  - {link: "https://s.42l.fr/cloudalpes2023ticket", text: "Acheter un billet"}
- - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Proposer un talk"}
+#  - {link: "https://s.42l.fr/cloudalpes2023cfp", text: "Proposer un talk"}
 
 # Hero Block
 heroImage: "hero.jpg"
